@@ -1,0 +1,47 @@
+deviceno : 0
+nrounds : 500
+attackround : 0
+initround : 20
+numusers : 100
+numvals : 4
+isnoniid : 0
+advratio : 0.5
+isorganized : 1
+unbiasmech : 0
+applymining : 1
+valdist : "uniform"
+valn : 10
+warfact: 2.0
+initcut : 0.2
+trainamount :  5000
+testamount : 1000
+nepoch : 10
+batchsize : 256
+lr : 0.0015
+minlr : 0.000010
+lrschfac : 0.2
+bestth : 0.0001
+clipping : 1
+clipth : 10
+weightdecay : 0.0001    
+momentum : 0.9
+seed : 11
+useseed : 8
+hostilityseed : 90
+convertersseed :  51
+numofclasses : 10
+sparsityratio : 0.5
+attack : "collective"
+applyarfed : 0
+converterdict:
+  0 : 2
+  1 : 9
+  2 : 0
+  3 : 5
+  4 : 7
+  5 : 3
+  6 : 8
+  7 : 4
+  8 : 6
+  9 : 1
+

@@ -1,0 +1,71 @@
+attackround : 0
+nrounds : 20
+numusers : 20
+isnoniid : 1
+advratio : 0.0
+isorganized : 1
+initround : 5
+unbiasmech : 0
+applymining : 1
+numvals : 4
+valdist : "gaussian"
+valn : 4
+warfact : 1.2
+initcut : 0.3
+trainamount : 200
+testamount : 100
+nepoch : 1
+batchsize : 8
+lr : 0.00005
+minlr : 0.00005
+lrschfac : 0.2
+bestth : 0.0001
+clipping : 0.1
+clipth : 10
+weightdecay : 0.0001    
+momentum : 0.9
+seed : 11
+useseed : 8
+hostilityseed : 90
+convertersseed :  51
+ood_ratio : 0.5
+test_num_classes : 4
+train_num_classes : 4
+numofclasses : 4
+sparsityratio : 0.5
+attack : "collective"
+applyarfed : 0
+converterdict:
+  0: 1
+  1: 0
+  2: 3
+  3: 2
+devices : 
+  - 1
+  - 4
+  - 5
+  - 6
+  
+# Simulation Configuration Settings
+# ---------------------------------
+
+# Rounds and Participants
+
+# Data Distribution
+
+# Data Characteristics
+
+# Data Augmentation and Distribution
+
+# Learning Parameters
+
+# Optimization Parameters
+
+# Seeds for Randomization
+
+# Class and Distribution Settings
+
+# Attack and Defense Settings
+
+# Data Transformation and Mapping
+# Device Configuration
