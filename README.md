@@ -51,7 +51,7 @@ After obtaining the weights $w_c^t$ for round $t$ from the cloud, edge node $e_i
 ### Installing TrustShield Package
 To install the TrustShield as a github project:
 ```bash
-git clone https://github.com/INFOCOM2024-TrustShield/TrustShield
+git clone https://github.com/usenix-TrustShield/TrustShield
 ```
 
 ### Required Packages
